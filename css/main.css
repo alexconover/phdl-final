@@ -96,17 +96,69 @@ textarea {
    ========================================================================== */
 
 
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after { 
+    box-sizing: inherit; 
+}
 
+body {
+    font-family: 'Share Tech Mono';
+    background-image: "img/background.png";
+    max-width: 945px;
+}
 
+img {
+    max-width: 100%;
+}
 
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
 
+.top-header {
+    padding: 1em;
+    position: relative;
+    width: 100%;
+}
 
+.top-header .small-logo {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
 
+.top-header .header-text {
+    position: absolute;
+    top: 1.5em;
+    right: 3em;
+}
 
+.top-header .header-text a {
+    text-decoration: none;
+    color: #7E7D7D;
+    font-family: 'Share Tech Mono';
+    font-weight: 100;
+    font-size: 1em;
+}
 
+.showcase-thumb {
+    width: 49%
+    float: left;
+}
 
+.showcase-thumb img {
+    position: relative;
+    z-index: -10;
+}
 
+.showcase-thumb:hover {
+    background-color: #454545;
+    opacity: 90%;
+}
 
 
 
