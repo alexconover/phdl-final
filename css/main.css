@@ -106,17 +106,14 @@ html {
 
 body {
     font-family: 'Share Tech Mono';
-    background-image: "img/background.png";
+    background-image: url("img/background.png");
     max-width: 945px;
+    margin-left: 2em;
 }
 
 img {
     max-width: 100%;
-}
-
-h1 {
-    font-size: 2em;
-    text-transform: uppercase;
+    height: auto;
 }
 
 .top-header {
@@ -126,28 +123,55 @@ h1 {
 }
 
 .top-header .small-logo {
-    position: absolute;
-    top: 1em;
-    left: 1em;
+    float: left;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 .top-header .header-text {
-    position: absolute;
-    top: 1.5em;
-    right: 3em;
+    float: right;
+    padding-top: 2em;
+    font-size: 0.8em; 
+    font-style: lighter;
 }
 
 .top-header .header-text a {
     text-decoration: none;
     color: #7E7D7D;
-    font-family: 'Share Tech Mono';
     font-weight: 100;
-    font-size: 1em;
+    font-size: 1.1em;
+    padding-left: 3em;
+}
+
+h1 {
+    font-size: 2.8em;
+    line-height: 1.3em;
+    font-weight: 100;
+    font-style: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.intro h1 {
+    clear: both;
+    float: left;
+    margin-top: 2.6em;
+    padding-left: 2em;
+
+}
+
+.intro p {
+    float: left;
+    padding-left: 57%;
+    padding-bottom: 2em;
+    font-style: lighter;
+    color: #7E7D7D;
 }
 
 .showcase-thumb {
-    width: 49%
+    width: 47%;
     float: left;
+    margin: 0.75em;
 }
 
 .showcase-thumb img {
@@ -156,11 +180,30 @@ h1 {
 }
 
 .showcase-thumb:hover {
-    background-color: #454545;
-    opacity: 90%;
+    background-color: hsla(0, 100%, 0%, .80);
 }
 
+.projects {
+    max-width: 100%;
+}
 
+.philosophy {
+    clear: both;
+}
+
+.philosophy p {
+    float: left;
+    padding-top: 2em;
+    padding-left: 0.75em;
+    padding-bottom: 1em;
+    color: #7E7D7D;
+}
+
+.philosophy h2 {
+    clear: both;
+    float: left;
+    text-align: center;
+}
 
 
 /* ==========================================================================
