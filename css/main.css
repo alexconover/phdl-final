@@ -98,6 +98,7 @@ textarea {
 
 html {
     box-sizing: border-box;
+    position: relative;
 }
 
 *, *:before, *:after { 
@@ -106,7 +107,7 @@ html {
 
 body {
     font-family: 'Share Tech Mono';
-    background-image: url("img/background.png");
+    background-image: url("../img/background.png");
     background-repeat: repeat-y;
     max-width: 1000px;
     margin: auto;
@@ -168,7 +169,7 @@ h2 {
     clear: both;
     float: left;
     margin-top: 2.6em;
-    padding-left: 2em;
+    padding-left: 1.8em;
 
 }
 
@@ -219,7 +220,6 @@ h2 {
 .icon-set {
     clear: both;
     float: left;
-    padding-top: 2em;
 }
 
 .contact {
@@ -242,11 +242,18 @@ h2 {
     margin-top: 0;
 }
 
+.icon-set img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 figcaption {
     display: block;
     font-size: 0.8em;
     padding: 10px;
     color: #7E7D7D;
+    text-align: center;
 }
 
 .contact ul {
@@ -268,11 +275,15 @@ figcaption {
 
 footer {
     clear: both;
-    float: right;
-    width: 55%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 37em;
+    height: 5em;
     background-color: #2A2A2A;
     color: #fff;
-    display: inline;
+    display: inline-block;
+    margin-bottom: 0;
 }
 
 footer p {
@@ -282,6 +293,17 @@ footer p {
     font-style: lighter;
     font-size: 0.8em;
     letter-spacing: 1px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    padding-right: 15px;
 }
 
 
