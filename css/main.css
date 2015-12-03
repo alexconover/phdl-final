@@ -114,7 +114,6 @@ body {
 }
 
 p {
-    font-style: lighter;
     color: #7E7D7D;
     font-size: 1em;
 }
@@ -139,7 +138,6 @@ img {
     float: right;
     padding-top: 2em;
     font-size: 0.8em; 
-    font-style: lighter;
 }
 
 .top-header .header-text a {
@@ -154,13 +152,11 @@ h1 {
     font-size: 2.8em;
     line-height: 1.3em;
     font-weight: 100;
-    font-style: lighter;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
 h2 {
-    font-style: lighter;
     font-weight: 100;
     letter-spacing: 4px;
 }
@@ -290,7 +286,6 @@ footer p {
     padding-left: 3em;
     padding-top: 1.5em;
     color: #fff;
-    font-style: lighter;
     font-size: 0.8em;
     letter-spacing: 1px;
 }
