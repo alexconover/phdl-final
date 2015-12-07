@@ -319,6 +319,10 @@ footer li {
     padding-right: 15px;
 }
 
+footer a {
+    color: #fff;
+}
+
 
 /* ==========================================================================
    Helper classes
